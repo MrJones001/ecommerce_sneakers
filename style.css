@@ -1,0 +1,286 @@
+*{
+    padding: 0;
+    margin: 30;
+    margin-right: 40px;
+    box-sizing: border-box;
+}
+label{
+    display: flex;
+}
+label #btn,
+label #cancel{
+    font-size: 30px;
+    line-height: 50px;
+    margin-left: 30px;
+    cursor: pointer;
+    color: gray;
+    display: none;
+}
+#check{
+    display: none;
+}
+nav{
+    display:flex;
+    align-items: center;
+    margin: 20px 20px 20px 20px;
+    overflow: hidden;
+    border-bottom: 1px solid rgb(164, 160, 160);
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    margin-left: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: gray;
+    font-family: 'Kumbh Sans', sans-serif;
+    margin: 0;
+    padding: 15px 2px;
+    font-size: 13px;
+    text-align: center;
+}
+nav ul li a:hover{
+    border-bottom: 4px solid hsl(26, 100%, 55%);
+}
+.cart{
+    height: 3vh;
+    margin: 0 0 0 300px;
+}
+.cart:hover{
+    filter: brightness(0) saturate(100%)
+}
+.avatar{
+    height: 6vh;
+}
+.avatar:hover{
+    border: 3px solid hsl(26, 100%, 55%);
+    border-radius: 30px;
+}
+.body{
+    display: flex;
+}
+.prod{
+    width: 40%;
+    height:70vh;
+    margin: 40px 20px 0 30px;
+    border-radius: 10px;
+}
+.body h1{
+    margin:80px 0 0 90px ;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 16px;
+    color: hsl(26, 100%, 55%);
+}
+.text h2{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: xx-large;
+    margin-left:90px;
+    width: 300px;
+}
+.text p{
+    font-family: 'Kumbh Sans', sans-serif;
+    margin-left:90px;
+    color: hsl(219, 9%, 45%);
+    width: 400px;
+}
+.product{
+    display: flex;
+}
+.text h3{
+    margin-left: 100px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.dis{
+    display: flex;
+}
+.dis h4{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 20px;
+    color: hsl(26, 100%, 55%);
+    margin-top: 55px;
+    background-color: hsl(25, 100%, 94%);
+    border-radius: 5px;
+    height: 100%;
+    width: 60px;
+    text-align: center;
+}
+h5{
+    text-decoration: line-through;
+    font-size: 18px;
+    font-family: 'Kumbh Sans', sans-serif;
+    margin:0 0 20px 110px;
+    bottom: 40px;
+    color: hsl(219, 9%, 45%);
+}
+.images{
+    margin: 30px;
+    display: flex;
+}
+.images img{
+    height: 10vh;
+    border-radius: 10px;
+}
+.images a{
+    padding: 0 0 0 0;
+    margin: 0 0 0 ;
+}
+.images img:hover{
+    opacity: 0.5;
+    border:3px solid hsl(26, 100%, 55%);
+}
+.carrt{
+    display: flex;
+}
+.add{
+    width: 170px;
+    height: 50px;
+    margin-left: 250px;
+    margin-bottom: 100px;
+    border-radius: 5px;
+    background-color: hsla(217, 21%, 81%, 0.391);
+}
+.minus{
+    margin: 25px;
+}
+.plus{
+    float: right;
+    margin: 20px;
+}
+.addto{
+    background-color:hsl(26, 100%, 55%);
+    width: 200px;
+    height: 50px;
+    display: flex;
+    border-radius: 5px;
+    left: 200px;
+    bottom: 70px;
+
+}
+.addto:hover{
+    opacity: 0.5;
+}
+.addto img{
+    height: 3vh;
+    margin-left: 10px;
+    margin-top: 10px;
+    filter: sepia(100%) brightness(200%) saturate(0%);
+}
+.ca{
+    text-decoration: none;
+}
+.addto img:hover{
+    border: 0 white;
+}
+.addto h1{
+    font-size: 15px;
+    position: relative;
+    color: white;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+/* MEDIA QUERIES */
+@media (min-width:949px ) and (max-width: 1350px) {
+
+}
+@media (max-width:950px ){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .logo{
+       margin-left: 10%;
+       width: 10vh;
+    }
+    nav{
+        border-bottom: none;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    label #btn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: white;
+        top: 70px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul {
+        display: block;
+     }
+     nav ul li{
+        margin: 60px;
+        line-height: 40px;
+     }
+     #check:checked ~ ul{
+            left: 0;
+     }
+     #check:checked ~ label #btn{
+        display: none;
+     }
+     #check:checked ~ label #cancel{
+        display: block;
+     }
+     .body{
+        flex-direction: column;
+     }
+     .cart{
+        margin-left: 30px;
+     }
+     .avatar{
+        margin-left: 50px;
+     }
+     .text{
+        margin-right: 10px;
+     }
+     .prod{
+        width: 100%;
+     }
+     .product{
+        display: none;
+     }
+     .dis{
+        margin-top: 40px;
+     }
+     .dis h4{
+        position: relative;
+        left: 20px;
+        bottom: 40px;
+     }
+     h5{
+        position: relative;
+        left: 250px;
+        bottom: 65px;
+     }
+     .carrt{
+       flex-direction: column;
+     }
+     .add{
+        width: 70%;
+        position: relative;
+        right: 200px;
+     }
+     .addto{
+        margin-left: 50px;
+        width: 70%;
+     }
+     .addto h1{
+        font-size: 20px;
+        position: relative;
+        left: 40px;
+        top: 10px;
+     }
+     .addto img{
+        position: relative;
+        left: 10px;
+     }
+}
