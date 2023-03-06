@@ -196,6 +196,7 @@ h5{
        width: 10vh;
     }
     nav{
+        margin-left: 30px;
         border-bottom: none;
     }
     nav ul li a{
@@ -246,7 +247,7 @@ h5{
      .text h1{
         margin-left: 50px;
      }
-     .texth2{
+     .text h2{
         margin-left: 50px;
      }
      .text p{
@@ -256,7 +257,7 @@ h5{
         width: 100%;
      }
      .prod{
-        margin: 0;
+        margin: 30px;
         height: 40vh;
         width: 100%;
      }
