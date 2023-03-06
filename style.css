@@ -182,10 +182,10 @@ h5{
 }
 
 /* MEDIA QUERIES */
-@media (min-width:949px ) and (max-width: 1350px) {
+@media (min-width:649px ) and (max-width: 1350px) {
 
 }
-@media (max-width:950px ){
+@media (max-width:650px ){
     *{
         padding: 0;
         margin: 0;
@@ -232,6 +232,7 @@ h5{
      }
      .body{
         flex-direction: column;
+        margin-right: 40px;
      }
      .cart{
         margin-left: 30px;
@@ -240,9 +241,23 @@ h5{
         margin-left: 50px;
      }
      .text{
-        margin-right: 10px;
+        margin-right: 40px;
+     }
+     .text h1{
+        margin-left: 50px;
+     }
+     .texth2{
+        margin-left: 50px;
+     }
+     .text p{
+        margin-left: 50px;
+        font-size: 12px;
+        text-align: start;
+        width: 100%;
      }
      .prod{
+        margin: 0;
+        height: 40vh;
         width: 100%;
      }
      .product{
@@ -251,15 +266,20 @@ h5{
      .dis{
         margin-top: 40px;
      }
+     .dis h3{
+        margin-left: 60px;
+        font-size: 35px;
+     }
      .dis h4{
         position: relative;
         left: 20px;
-        bottom: 40px;
+        bottom: 45px;
      }
      h5{
         position: relative;
-        left: 250px;
-        bottom: 65px;
+        left: 170px;
+        margin-left: 100px;
+        bottom: 70px;
      }
      .carrt{
        flex-direction: column;
