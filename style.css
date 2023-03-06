@@ -1,7 +1,6 @@
 *{
     padding: 0;
-    margin: 30;
-    margin-right: 40px;
+    margin: 0;
     box-sizing: border-box;
 }
 label{
@@ -35,7 +34,7 @@ nav ul li a{
     text-decoration: none;
     color: gray;
     font-family: 'Kumbh Sans', sans-serif;
-    margin: 0;
+    margin-left: 40px;
     padding: 15px 2px;
     font-size: 13px;
     text-align: center;
@@ -45,13 +44,18 @@ nav ul li a:hover{
 }
 .cart{
     height: 3vh;
-    margin: 0 0 0 300px;
+    position: relative;
+    left:200px;
+    margin-left: 50px;
 }
 .cart:hover{
     filter: brightness(0) saturate(100%)
 }
 .avatar{
+    position: relative;
+    left: 250px;
     height: 6vh;
+    margin-left: 50px;
 }
 .avatar:hover{
     border: 3px solid hsl(26, 100%, 55%);
@@ -96,11 +100,16 @@ nav ul li a:hover{
 .dis{
     display: flex;
 }
+.dis h3{
+    margin-top: 40px;
+    margin-left: 95px;
+    font-size: 30px;
+}
 .dis h4{
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 20px;
     color: hsl(26, 100%, 55%);
-    margin-top: 55px;
+    margin-top: 45px;
     background-color: hsl(25, 100%, 94%);
     border-radius: 5px;
     height: 100%;
@@ -111,7 +120,7 @@ h5{
     text-decoration: line-through;
     font-size: 18px;
     font-family: 'Kumbh Sans', sans-serif;
-    margin:0 0 20px 110px;
+    margin:20px 0 20px 110px;
     bottom: 40px;
     color: hsl(219, 9%, 45%);
 }
@@ -121,6 +130,7 @@ h5{
 }
 .images img{
     height: 10vh;
+    margin-left: 30px;
     border-radius: 10px;
 }
 .images a{
@@ -133,6 +143,8 @@ h5{
 }
 .carrt{
     display: flex;
+    position: relative;
+    bottom: 40px;
 }
 .add{
     width: 170px;
@@ -155,7 +167,7 @@ h5{
     height: 50px;
     display: flex;
     border-radius: 5px;
-    left: 200px;
+    margin-left:40px;
     bottom: 70px;
 
 }
@@ -177,6 +189,9 @@ h5{
 .addto h1{
     font-size: 15px;
     position: relative;
+    top: 10px;
+    text-align: center;
+    left: 20px;
     color: white;
     font-family: 'Kumbh Sans', sans-serif;
 }
@@ -212,6 +227,7 @@ h5{
         background: white;
         top: 70px;
         left: -100%;
+        margin: 0;
         text-align: center;
         transition: all .5s;
     }
@@ -236,10 +252,10 @@ h5{
         margin-right: 40px;
      }
      .cart{
-        margin-left: 30px;
+       left: 50px;
      }
      .avatar{
-        margin-left: 50px;
+        left: 70px;
      }
      .text{
         margin-right: 40px;
@@ -268,27 +284,31 @@ h5{
         margin-top: 40px;
      }
      .dis h3{
-        margin-left: 60px;
         font-size: 35px;
      }
      .dis h4{
         position: relative;
         left: 20px;
-        bottom: 45px;
      }
      h5{
         position: relative;
         left: 170px;
-        margin-left: 100px;
-        bottom: 70px;
+        margin-top: 30px;
+        margin-left: 180px;
+        bottom: 75px;
      }
      .carrt{
        flex-direction: column;
+       margin-left: 30px;
      }
      .add{
         width: 70%;
         position: relative;
         right: 200px;
+     }
+     .ca{
+        margin-top: 10px;
+        margin-left: 50px;
      }
      .addto{
         margin-left: 50px;
@@ -297,7 +317,7 @@ h5{
      .addto h1{
         font-size: 20px;
         position: relative;
-        left: 40px;
+        left: 30px;
         top: 10px;
      }
      .addto img{
