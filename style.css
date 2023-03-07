@@ -254,7 +254,6 @@ h5{
      }
      .body{
         flex-direction: column;
-        margin-right: 40px;
      }
      .cart{
        left: 50px;
@@ -269,7 +268,7 @@ h5{
      }
      .avatar{
         left: 50px;
-        margin-left: 50px;
+        margin-left: 30px;
      }
      .avatar img{
         margin-left: 20px;
