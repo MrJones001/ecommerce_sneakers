@@ -45,15 +45,16 @@ nav ul li a:hover{
 .cart{
     height: 3vh;
     position: relative;
-    left:200px;
-    margin-left: 50px;
+    left:30px;
+    margin-left: 100px;
+    margin-top: 10px;
 }
 .cart:hover{
     filter: brightness(0) saturate(100%)
 }
 .avatar{
     position: relative;
-    left: 250px;
+    left: 100px;
     height: 6vh;
     margin-left: 50px;
 }
