@@ -197,10 +197,10 @@ h5{
 }
 
 /* MEDIA QUERIES */
-@media (min-width:649px ) and (max-width: 1350px) {
+@media (min-width:949px ) and (max-width: 1350px) {
 
 }
-@media (max-width:650px ){
+@media (max-width:950px ){
     *{
         padding: 0;
         margin: 0;
@@ -259,9 +259,12 @@ h5{
      }
      .cart img{
         margin-left: 0;
+        left: 30px;
+        margin-top: 15px;
      }
      .avatar{
-        left: 70px;
+        left: 50px;
+        margin-left: 10px;
      }
      .avatar img{
         margin-left: 20px;
@@ -294,16 +297,18 @@ h5{
      }
      .dis h3{
         font-size: 35px;
+        margin-left: 70px;
      }
      .dis h4{
         position: relative;
         left: 20px;
+        margin-top: 50px;
      }
      h5{
         position: relative;
         left: 150px;
-        margin-top: 35px;
-        margin-left: 170px;
+        margin-top: 42px;
+        margin-left: 130px;
         bottom: 75px;
      }
      .carrt{
